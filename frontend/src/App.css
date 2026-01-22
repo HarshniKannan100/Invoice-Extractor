@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+} 
+
+
+h1 {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+
+.error {
+  color: red;
+}
+
+
+#ui,#vi {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 30px; 
+  border-width: max-content;
+}
+
+#ui{
+  position: fixed;
+  top: 60px;
+  left: 200px;   /* or left: 20px if you prefer */
+  z-index: 1000;
+}
+
+#vi{
+  position: fixed;
+  top: 60px;
+  left: 500px;   /* or left: 20px if you prefer */
+  z-index: 1000;
+}

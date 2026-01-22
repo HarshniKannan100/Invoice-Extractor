@@ -1,0 +1,1 @@
+DATABASE_URL=  "postgresql+asyncpg://postgres:root@localhost:5433/invoice_db"

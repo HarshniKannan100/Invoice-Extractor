@@ -1,0 +1,36 @@
+.box{
+    display: flex;
+    flex-direction: column;  /* upload on top, table below */ /* left aligned */
+    padding: 20px;
+    gap: 20px;
+    width: auto;
+    margin-top: 40px;
+    border: 10px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 600px;
+    width: 1000px;
+    align-items: center;
+    position: fixed;
+    top: 300px;
+    left: 1000px;   /* or left: 20px if you prefer */
+    z-index: 1000;
+}
+
+.upload-button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    font-size: 30px;
+}
+
+.file-input{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+p{
+    font-size: 80px;
+}

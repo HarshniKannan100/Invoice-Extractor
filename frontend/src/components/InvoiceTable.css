@@ -1,0 +1,39 @@
+.table-wrapper {
+  max-height: 70vh;      /* vertical scroll */
+  overflow-y: auto;
+  overflow-x: auto;      /* horizontal scroll */
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1600px;   /* forces horizontal scroll */
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  white-space: nowrap; /* prevents text wrapping */
+}
+
+th {
+  background: #f0f0f0;
+  position: sticky;
+  top: 0;              /* keeps header visible */
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+td{
+    font-size: 20px;
+}
+
+.delete-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,29 @@
+.draft-invoice {
+  width: max-content;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 40px;
+  margin: 200px;
+}
+
+input{
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 30px; 
+  border-width: max-content;
+}
